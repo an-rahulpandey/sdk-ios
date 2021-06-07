@@ -1,0 +1,40 @@
+PODS:
+  - MockReaderUI (2.0.0-alpha8)
+  - ReaderSDK2 (2.0.0-alpha8)
+  - ReaderSDK2SampleApp (2.0.0-alpha8):
+    - MockReaderUI (= 2.0.0-alpha8)
+    - ReaderSDK2 (= 2.0.0-alpha8)
+    - ReaderSDK2UI (= 2.0.0-alpha8)
+  - ReaderSDK2SampleApp/SampleApp (2.0.0-alpha8):
+    - MockReaderUI (= 2.0.0-alpha8)
+    - ReaderSDK2 (= 2.0.0-alpha8)
+    - ReaderSDK2UI (= 2.0.0-alpha8)
+  - ReaderSDK2UI (2.0.0-alpha8):
+    - ReaderSDK2 (= 2.0.0-alpha8)
+
+DEPENDENCIES:
+  - MockReaderUI (from `./MockReaderUI.podspec`)
+  - ReaderSDK2 (from `./ReaderSDK2.podspec`)
+  - ReaderSDK2SampleApp (from `./`)
+  - ReaderSDK2SampleApp/SampleApp (from `./`)
+  - ReaderSDK2UI (from `./`)
+
+EXTERNAL SOURCES:
+  MockReaderUI:
+    :podspec: "./MockReaderUI.podspec"
+  ReaderSDK2:
+    :podspec: "./ReaderSDK2.podspec"
+  ReaderSDK2SampleApp:
+    :path: "./"
+  ReaderSDK2UI:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  MockReaderUI: 110d75d642f84dde027a588938973a15ce226f4e
+  ReaderSDK2: 10193e7c7c6d6bf545bbbac8143232d9597a0ee6
+  ReaderSDK2SampleApp: 55cfcf7017d70de3378f2d8a41ec0e756b9e58bd
+  ReaderSDK2UI: 5b127326474c35a85afec29f476f739715e33587
+
+PODFILE CHECKSUM: 49cdcba03e8fd0da94b3ff2f419d58225379c2a2
+
+COCOAPODS: 1.10.1
