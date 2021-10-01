@@ -1,0 +1,87 @@
+/* The title of button used to dismiss an error. */
+"ReaderSDK2UI_GenericStrings_ErrorDismissButtonTitle" = "Dismiss";
+
+/* The prompt displayed to the user when the only available card input method is 'chip'. */
+"ReaderSDK2UI_PayScreen_Prompt_Chip" = "Insert to Pay";
+
+/* The prompt displayed to the user when the only available card input methods are 'chip' and 'contactless'. */
+"ReaderSDK2UI_PayScreen_Prompt_Chip_Contactless" = "Insert or Tap to Pay";
+
+/* The prompt displayed to the user when there are no readers connected. */
+"ReaderSDK2UI_PayScreen_Prompt_NoReadersConnected" = "No Readers Connected";
+
+/* The prompt displayed to the user when the only available card input method is 'swipe'. */
+"ReaderSDK2UI_PayScreen_Prompt_Swipe" = "Swipe to Pay";
+
+/* The prompt displayed to the user when the only available card input methods are 'swipe' and 'chip'. */
+"ReaderSDK2UI_PayScreen_Prompt_Swipe_Chip" = "Swipe or Insert to Pay";
+
+/* The prompt displayed to the user when the available card input methods are 'swipe', 'chip', and 'contactless'. */
+"ReaderSDK2UI_PayScreen_Prompt_Swipe_Chip_Contactless" = "Swipe, Insert or Tap to Pay";
+
+/* The text displayed above the total amount on the Pay screen. */
+"ReaderSDK2UI_PayScreen_TotalAmountHeader" = "TOTAL";
+
+/* The title for the button for manual card entry. */
+"ReaderSDK2UI_PayScreen_manualCardEntry" = "Enter card details manually";
+
+/* The title of the row which displays the battery level of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_BatteryRow" = "Battery";
+
+/* The title of the alert displayed when firmware upgrade fails. */
+"ReaderSDK2UI_ReaderDetail_FirmwareFailedAlertTitle" = "Firmware Upgrade failure";
+
+/* The title of the row which displays the firmware version of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_FirmwareRow" = "Firmware";
+
+/* The title of the button which, when pressed, forgets the connected Square reader. The reader will need to be paired again before it can be used. */
+"ReaderSDK2UI_ReaderDetail_ForgetReaderButton" = "Forget";
+
+/* The title of the table which displays general information about the connected Square reader, including the battery level, firmware version, etc. */
+"ReaderSDK2UI_ReaderDetail_GeneralSection" = "General";
+
+/* The title of the button which, when pressed, identifies the connected Square reader by flashing its LEDs. */
+"ReaderSDK2UI_ReaderDetail_IdentifyReaderButton" = "Identify this Reader";
+
+/* The title of the row which displays the current state of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_ReaderStateRow" = "State";
+
+/* The title of the button which, when pressed, reconnects it with Square's servers. */
+"ReaderSDK2UI_ReaderDetail_ReconnectReaderButtonTitle" = "Retry connection";
+
+/* The title of the row which displays the serial number of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_SerialNumberRow" = "Serial Number";
+
+/* The title of the row which displays the card input methods which are accepted by the connected Square reader (e.g. swipe, chip, contactless). */
+"ReaderSDK2UI_ReaderDetail_SupportedInputMethodsRow" = "Accepts";
+
+/* The instructions for pairing a bluetooth Square reader. */
+"ReaderSDK2UI_ReaderPairing_BluetoothPairingInstructions" = "Press and hold the button on your reader until the lights flash orange. Then release the button and place the reader next to this device to pair.";
+
+/* The title displayed when a bluetooth reader fails to pair. */
+"ReaderSDK2UI_ReaderPairing_ErrorTitle" = "Failed to Pair";
+
+/* The message displayed to the user when the app is looking for bluetooth readers to pair with. */
+"ReaderSDK2UI_ReaderPairing_LookingForReaders" = "Looking for readers...";
+
+/* The message displayed to the user when the app is in the process of pairing with a reader. */
+"ReaderSDK2UI_ReaderPairing_PairingWithReader" = "Pairing with reader…";
+
+/* The title displayed when pairing a Square reader via bluetooth. */
+"ReaderSDK2UI_ReaderPairing_Title" = "Pair Your Reader";
+
+/* The title for the button that forgets the reader. */
+"ReaderSDK2UI_ReaderSwipeAction_Forget" = "Forget";
+
+/* The title for the button that identifies the reader. */
+"ReaderSDK2UI_ReaderSwipeAction_Identify" = "Identify";
+
+/* The title of the button used to start pairing with nearby Square bluetooth readers. */
+"ReaderSDK2UI_Readers_ConnectReaderButtonTitle" = "Connect a reader";
+
+/* The title of the table which displays all Square hardware that is currently connected to the device. */
+"ReaderSDK2UI_Readers_HardwareSection" = "Hardware";
+
+/* The title of the screen that allows the user to manage their connected readers */
+"ReaderSDK2UI_Readers_Title" = "Readers";
+

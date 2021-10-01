@@ -1,0 +1,72 @@
+/* The title of button used to dismiss an error. */
+"ReaderSDK2UI_GenericStrings_ErrorDismissButtonTitle" = "Ignorar";
+
+/* The prompt displayed to the user when the only available card input method is 'chip'. */
+"ReaderSDK2UI_PayScreen_Prompt_Chip" = "Insertar para pagar";
+
+/* The prompt displayed to the user when the only available card input methods are 'chip' and 'contactless'. */
+"ReaderSDK2UI_PayScreen_Prompt_Chip_Contactless" = "Insertar o acercar para pagar";
+
+/* The prompt displayed to the user when there are no readers connected. */
+"ReaderSDK2UI_PayScreen_Prompt_NoReadersConnected" = "No hay lectores conectados";
+
+/* The prompt displayed to the user when the only available card input method is 'swipe'. */
+"ReaderSDK2UI_PayScreen_Prompt_Swipe" = "Deslizar para pagar";
+
+/* The prompt displayed to the user when the only available card input methods are 'swipe' and 'chip'. */
+"ReaderSDK2UI_PayScreen_Prompt_Swipe_Chip" = "Deslizar o insertar para pagar";
+
+/* The prompt displayed to the user when the available card input methods are 'swipe', 'chip', and 'contactless'. */
+"ReaderSDK2UI_PayScreen_Prompt_Swipe_Chip_Contactless" = "Deslizar, insertar o acercar para pagar";
+
+/* The text displayed above the total amount on the Pay screen. */
+"ReaderSDK2UI_PayScreen_TotalAmountHeader" = "TOTAL";
+
+/* The title of the row which displays the battery level of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_BatteryRow" = "Batería";
+
+/* The title of the alert displayed when firmware upgrade fails. */
+"ReaderSDK2UI_ReaderDetail_FirmwareFailedAlertTitle" = "Error en la actualización del firmware";
+
+/* The title of the row which displays the firmware version of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_FirmwareRow" = "Firmware";
+
+/* The title of the button which, when pressed, forgets the connected Square reader. The reader will need to be paired again before it can be used. */
+"ReaderSDK2UI_ReaderDetail_ForgetReaderButton" = "Olvidar";
+
+/* The title of the table which displays general information about the connected Square reader, including the battery level, firmware version, etc. */
+"ReaderSDK2UI_ReaderDetail_GeneralSection" = "General";
+
+/* The title of the button which, when pressed, identifies the connected Square reader by flashing its LEDs. */
+"ReaderSDK2UI_ReaderDetail_IdentifyReaderButton" = "Identifique este Lector";
+
+/* The title of the row which displays the current state of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_ReaderStateRow" = "Estado";
+
+/* The title of the row which displays the serial number of the connected Square reader. */
+"ReaderSDK2UI_ReaderDetail_SerialNumberRow" = "Número de serie";
+
+/* The title of the row which displays the card input methods which are accepted by the connected Square reader (e.g. swipe, chip, contactless). */
+"ReaderSDK2UI_ReaderDetail_SupportedInputMethodsRow" = "Acepta";
+
+/* The instructions for pairing a bluetooth Square reader. */
+"ReaderSDK2UI_ReaderPairing_BluetoothPairingInstructions" = "Mantenga presionado el botón del lector hasta que la luz parpadee de naranja y suelte el botón. Coloque el lector al lado de este dispositivo para emparejarlo.";
+
+/* The title displayed when a bluetooth reader fails to pair. */
+"ReaderSDK2UI_ReaderPairing_ErrorTitle" = "Error al emparejar";
+
+/* The message displayed to the user when the app is looking for bluetooth readers to pair with. */
+"ReaderSDK2UI_ReaderPairing_LookingForReaders" = "Buscando lectores...";
+
+/* The title displayed when pairing a Square reader via bluetooth. */
+"ReaderSDK2UI_ReaderPairing_Title" = "Emparejar lector";
+
+/* The title of the button used to start pairing with nearby Square bluetooth readers. */
+"ReaderSDK2UI_Readers_ConnectReaderButtonTitle" = "Conectar un lector";
+
+/* The title of the table which displays all Square hardware that is currently connected to the device. */
+"ReaderSDK2UI_Readers_HardwareSection" = "Hardware";
+
+/* The title of the screen that allows the user to manage their connected readers */
+"ReaderSDK2UI_Readers_Title" = "Lectores";
+
