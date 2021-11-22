@@ -1,0 +1,42 @@
+{
+  "constants": {
+    "version": "2.0.0-alpha10",
+    "license": {
+      "type": "Square Developer License"
+    },
+    "homepage": "https://github.com/Square-Beta-Testers/reader-sdk-2-ios",
+    "authors": "Square",
+    "deployment_target": "12.2",
+    "source_root":  "https://reader-sdk-2.s3-us-west-2.amazonaws.com/readersdk2",
+    "commit_sha": "4513a2d6d78"
+  },
+  "frameworks": [
+    {
+      "name": "ReaderSDK2",
+      "summary": "Enables developers to build secure in-person payment solutions"
+    },
+    {
+      "name": "MockReaderUI",
+      "summary": "Enables developers to use mock reader for development purposes"
+    },
+    {
+      "name": "ReaderSDK2UI",
+      "summary": "Provides UI components to interact with ReaderSDK2",
+      "open_source": true,
+      "depedencies": [
+        "ReaderSDK2"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "name": "ReaderSDK2SampleApp",
+      "summary": "Example app to integrate with the ReaderSDK2 framework",
+      "depedencies": [
+        "ReaderSDK2",
+        "ReaderSDK2UI",
+        "MockReaderUI"
+      ]
+    }
+  ]
+}

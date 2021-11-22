@@ -1,0 +1,28 @@
+Pod::Spec.new do |s|
+  s.name = '<%= @framework.name %>'
+  s.version = '<%= @parser.constants.version %>'
+  s.license = <%= @parser.constants.license%>
+  s.homepage = '<%= @parser.constants.homepage %>'
+  s.authors = '<%= @parser.constants.authors %>'
+  s.summary = '<%= @framework.summary %>'
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.swift_version = ['5.0']
+
+  s.ios.deployment_target = '<%= @parser.constants.deployment_target %>'
+<% if @framework.has_dependencies %>
+  <% @framework.depedencies.each do |dependency| %>
+  s.dependency '<%= dependency %>', '<%= @parser.constants.version %>'
+  <% end %>
+<% end %>
+  s.source = <%= @framework.source(@parser) %>
+<% if @framework.open_source %>
+  s.source_files = '<%= @framework.source_files %>'
+  s.resource_bundle = { '<%= @framework.resource_bundle_name %>' => ['<%= @framework.resource_files %>']}
+  s.pod_target_xcconfig = s.consumer(:ios).pod_target_xcconfig.merge(
+      'ENABLE_BITCODE' => 'NO'
+    )
+<% else %>
+  s.vendored_frameworks = '<%= @framework.vendored_frameworks %>'
+<% end %>
+end

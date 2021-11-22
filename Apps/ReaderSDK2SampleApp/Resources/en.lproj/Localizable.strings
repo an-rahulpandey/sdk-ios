@@ -1,0 +1,114 @@
+﻿/* The title of button used to dismiss an authorization error. */
+"ReaderSDKSample_Authorization_ErrorDismissButtonTitle" = "Dismiss";
+
+/* The title displayed when an authorization error occurs. */
+"ReaderSDKSample_Authorization_ErrorTitle" = "Authorization Error";
+
+/* The message displayed while authorization is in progress. */
+"ReaderSDKSample_Authorization_InProgressMessage" = "Authorizing...";
+
+/* The name of the dark theme. */
+"ReaderSDKSample_DarkThemeName" = "Dark";
+
+/* The name of the default theme. */
+"ReaderSDKSample_DefaultThemeName" = "Default";
+
+/* The title displayed in the cart when the total amount is greater than 0. */
+"ReaderSDKSample_OrderEntry_Cart" = "Cart";
+
+/* The title of the line item displayed at the bottom of the cart. */
+"ReaderSDKSample_OrderEntry_CartTotal" = "Total";
+
+/* The title of the button used to charge the customer. */
+"ReaderSDKSample_OrderEntry_ChargeButtonTitle" = "Charge";
+
+/* The title of the keyboard shortcut used to reset the amount entered to 0. */
+"ReaderSDKSample_OrderEntry_ClearAmountKeyboardShortcutName" = "Clear";
+
+/* The character displayed on the keypad button which is used to reset the amount entered to 0. */
+"ReaderSDKSample_OrderEntry_ClearAmountKeypadButton" = "C";
+
+/* The name of a cart item with an amount that is manually entered using the keypad. */
+"ReaderSDKSample_OrderEntry_CustomAmountItemName" = "Custom Amount";
+
+/* The message displayed in the cart when the total amount is 0. */
+"ReaderSDKSample_OrderEntry_EmptyCart" = "The cart is empty.";
+
+/* The title displayed in the cart when the total amount is 0. */
+"ReaderSDKSample_OrderEntry_NoSale" = "No Sale";
+
+/* A string that is used to prefix the total amount in the current cart. For example: 'Total: $10.50' */
+"ReaderSDKSample_OrderEntry_Total" = "Total:";
+
+/* A message that prompts the user to grant access to Bluetooth. */
+"ReaderSDKSample_Permissions_BluetoothPrompt" = "Enable Bluetooth";
+
+/* The title of the button on the permissions screen which, when pressed, progresses the user to the order entry screen where they can start taking payments. This button only becomes enabled once the user has granted access to all required system permissions. */
+"ReaderSDKSample_Permissions_DoneButtonTitle" = "Start Taking Payments";
+
+/* A message that prompts the user to grant access to the device's location. */
+"ReaderSDKSample_Permissions_LocationServices" = "Enable Location Services";
+
+/* A message that prompts the user to grant access to the device's microphone. */
+"ReaderSDKSample_Permissions_MicrophonePrompt" = "Enable Microphone";
+
+/* The title of the screen which requires users to grant access to system permissions. */
+"ReaderSDKSample_Permissions_Title" = "Enable Permissions";
+
+/* The title of the row which displays the cardID to be used for a Card on File payment. */
+"ReaderSDKSample_Settings_CardIDRow" = "Card ID";
+
+/* The title of the table section which displays card on file settings such as the cardID. */
+"ReaderSDKSample_Settings_CardOnFileSection" = "Card On File";
+
+/* The title of the button used to deauthorize the currently authorized Square account. */
+"ReaderSDKSample_Settings_DeauthorizeButtonTitle" = "Log Out";
+
+/* The title of the table section which displays general settings such as the selected theme. */
+"ReaderSDKSample_Settings_GeneralSection" = "General";
+
+/* The title of the row which displays the location of the currently authorized Square merchant. */
+"ReaderSDKSample_Settings_LocationRow" = "Location";
+
+/* The title of the table section which displays location settings such as the location name. */
+"ReaderSDKSample_Settings_LocationSection" = "Location";
+
+/* The title of the table section which displays mock reader settings visibility. */
+"ReaderSDKSample_Settings_MockReaderSection" = "Mock Reader";
+
+/* The title of the row which displays the visibility choice of the mock reader. */
+"ReaderSDKSample_Settings_MockReaderVisibility" = "Show/hide";
+
+/* The title of the screen which allows the user to change the payment options. */
+"ReaderSDKSample_Settings_PaymentOptionsTitle" = "Payment Options";
+
+/* The title of the row which displays the selected theme. */
+"ReaderSDKSample_Settings_Theme" = "Theme";
+
+/* The title of the screen which allows the user to change the current theme. */
+"ReaderSDKSample_Settings_ThemePickerTitle" = "Select Theme";
+
+/* The title of the login button displayed on the start screen. */
+"ReaderSDKSample_Start_LoginButtonTitle" = "Log In";
+
+/* The title displayed on the start screen. */
+"ReaderSDKSample_Start_Title" = "Reader SDK Sample App";
+
+/* The name of the keypad tab. */
+"ReaderSDKSample_TabBar_KeypadTitle" = "Keypad";
+
+/* The name of the readers tab. */
+"ReaderSDKSample_TabBar_ReadersTitle" = "Readers";
+
+/* The name of the settings tab. */
+"ReaderSDKSample_TabBar_SettingsTitle" = "Settings";
+
+/* The title of the button used to start a new transaction. */
+"ReaderSDKSample_TransactionComplete_NewTransactionButtonTitle" = "New Transaction";
+
+/* The title of the screen that is displayed after a successful transaction. */
+"ReaderSDKSample_TransactionComplete_Title" = "Transaction Complete";
+
+/* The title of the button used to view the receipt after a successful transaction. */
+"ReaderSDKSample_TransactionComplete_ViewReceiptButtonTitle" = "View Receipt";
+
